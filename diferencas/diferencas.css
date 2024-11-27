@@ -55,7 +55,7 @@ html{
 }
 
 body{
-    background-image: url("./img/img.cartas1.webp");
+    background-image: url("../img/img.cartas1.webp");
     background-size: cover;
     background-position: center; 
     background-attachment: fixed; 
@@ -131,37 +131,4 @@ nav.pags p {
     margin-top: -39px;
     margin-left: 520px;
     color: black;
-}
-
-.estrutura {
-    display: flex;
-    padding: 74px;
-}
-
-.estrutura button {
-    width: 14.5rem;
-    height: 4.56rem;
-    padding: 0.1rem;
-    margin-left: 1rem;
-
-    background-color: var(--botton-color);
-    border: none;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 1.2rem;
-    margin: 15px;
-    color: var(--color-text); 
-    display: inline-block;
-    font-size: 1.2rem;
-    margin-top: 6rem;
-    margin-left: 85px;
-   
-    cursor: pointer;
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 900;
-}
-
-.estrutura botao1 {
-    margin-left: 1000px;
 }
