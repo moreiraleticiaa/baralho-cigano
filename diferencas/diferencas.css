@@ -132,3 +132,36 @@ nav.pags p {
     margin-left: 520px;
     color: black;
 }
+
+.intro p {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+    width: 40rem;
+    margin-left: 15rem;
+    z-index: 1;
+}
+
+/*before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50rem;
+    height: 150%;
+    margin-left: 202px;
+    border-radius: 2rem;
+    background-attachment: fixed;
+    margin-top: 3px;
+    background-color: #a02121;
+    z-index: -1;
+}*/
+
+.moving-text {
+    position: relative;
+    display: inline-block;
+    /*animation: moveText 2s infinite alternate;  Faz o texto se mover */
+    margin: 0; 
+    margin-left: 39px;
+}  
