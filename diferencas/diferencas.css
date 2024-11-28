@@ -58,8 +58,9 @@ body{
     background-image: url("../img/img.cartas1.webp");
     background-size: cover;
     background-position: center; 
-    background-attachment: fixed; 
-    background-attachment: scroll;
+   /* position: fixed;
+    background-attachment: scroll;*/
+    background-attachment: fixed;
     background-repeat: repeat-y, no-repeat;
     overflow-x: hidden;
     height: 90.19vh;
@@ -96,6 +97,7 @@ header .logo {
 header nav {
     width: 71.66rem;
     height: auto;
+    
 }
 
 nav h1 {
@@ -106,19 +108,20 @@ nav h1 {
 nav a {
     text-decoration: none;
     color: var(--color-text);
+    /*margin-left: 101px;*/
 
     font-family: 'Garet', 'sans-serif';
     font-weight: 200;
 }
 
 nav.pags a {
-    color: rgb(0, 0, 0);
+    color: rgb(233, 198, 198);
     text-decoration: none;
     margin-left: 51px;
     font-size: 1.92rem;
     font-weight: 300;
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 200;
     
 }
@@ -139,24 +142,27 @@ nav.pags p {
     padding: 10px;
     font-size: 15px;
     width: 40rem;
-    margin-left: 15rem;
+    margin-left: 18rem;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     z-index: 1;
 }
 
-/*before {
+.intro p::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    width: 50rem;
-    height: 150%;
-    margin-left: 202px;
+    width: 44rem;
+    height: 100%;
+    margin-left: -30px;
+    margin-top: 750rem;
     border-radius: 2rem;
     background-attachment: fixed;
     margin-top: 3px;
     background-color: #a02121;
     z-index: -1;
-}*/
+}
 
 .moving-text {
     position: relative;
@@ -165,3 +171,136 @@ nav.pags p {
     margin: 0; 
     margin-left: 39px;
 }  
+
+.baralho_c h3 {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-size: 23px;
+    margin-top: 77px;
+    margin-left: 9rem;
+    text-align: justify;
+    margin-bottom: -70rem;
+    color: #ffdede;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+}
+
+.baralho_c p {
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 6.99rem;
+    text-align: justify;
+    margin-bottom: -1.3rem;
+    max-width: 16.5rem;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+
+    word-spacing: normal;
+}
+
+.baralho_c p::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 127%;
+    margin-left: 83px;
+    margin-top: -200rem;
+    border-radius: 2rem;
+    background-attachment: fixed;
+    margin-top: 350px;
+    background-color: #6b1d1d;
+    z-index: -1;
+}
+
+.baralho_p h3 {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-size: 23px;
+    top: -680px;
+    margin-left: 28.20rem;
+    text-align: justify;
+    margin-bottom: -70rem;
+    color: #ffdede;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+}
+
+.baralho_p p {
+    font-size: 15px;
+    margin-top: -631.8px;
+    margin-left: 28.99rem;
+    text-align: justify;
+    margin-bottom: 41.3rem;
+    
+    max-width: 16.5rem;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 2;
+
+    word-spacing: normal;
+}
+
+.baralho_p p::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 138.5%;
+    margin-left: 436px;
+    margin-top: -200rem;
+    border-radius: 2rem;
+    background-attachment: fixed;
+    margin-top: 350px;
+    background-color: #6b1d1d;
+    z-index: -2;
+}
+
+.tarot h3 {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-size: 23px;
+    top: -1429px;
+    margin-left: 52.7rem;
+    text-align: justify;
+    margin-bottom: -70rem;
+    color: #ffdede;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+}
+
+.tarot p {
+    font-size: 15px;
+    margin-top: -1380px;
+    margin-left: 51.1rem;
+    text-align: justify;
+    margin-bottom: 87.7rem;
+    max-width: 16.5rem;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+
+    word-spacing: normal;
+}
+
+.tarot p::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20rem;
+    height: 135%;
+    margin-left: 790px;
+    margin-top: -200rem;
+    border-radius: 2rem;
+    background-attachment: fixed;
+    margin-top: 350px;
+    background-color: #6b1d1d;
+    z-index: -1;
+}
